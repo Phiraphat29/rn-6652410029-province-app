@@ -21,7 +21,7 @@ export default function RootLayout() {
 
   return <Stack>
     <Stack.Screen name="index" options={{ headerShown: false }} />
-    <Stack.Screen name="home" options={{ headerStyle: { backgroundColor: '#0000ff' }, headerTitle: 'หน้าหลัก', headerTitleAlign: 'center', headerTintColor: '#FFC107', headerTitleStyle: { fontFamily: 'NotoSansThai_700Bold' } }} />
+    <Stack.Screen name="home" options={{ headerStyle: { backgroundColor: '#32D67C' }, headerTitle: 'หน้าหลัก', headerTitleAlign: 'center', headerTintColor: '#FFFFFF', headerTitleStyle: { fontFamily: 'NotoSansThai_700Bold' } }} />
 
   </Stack>;
 }

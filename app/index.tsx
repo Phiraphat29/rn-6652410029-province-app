@@ -13,11 +13,10 @@ export default function Index() {
 
   return (
     <View style={styles.container}>
-      <Image source={require('../assets/images/landmark.png')} style={styles.logo} />
-      <Text style={styles.title}>Thai Province App</Text>
-      <Text style={styles.description}>แอปแนะนำสถานที่ท่องเที่ยวในประเทศไทย</Text>
-      <Text style={styles.description}>(ร้อยเอ็ด)</Text>
-      <ActivityIndicator size="large" color="#0000ff" style={styles.loading} />
+      <Image source={require('../assets/images/wheat-plant.png')} style={styles.logo} />
+      <Text style={styles.title}>เมืองร้อยเอ็ด</Text>
+      <Text style={styles.description}>สิบเอ็ดประตูเมืองงาม เรืองนามพระสูงใหญ่ ผ้าไหมสาเกต บุญผะเหวดประเพณี มหาเจดีย์ชัยมงคล งามน่ายลบึงพลาญชัย เขตกว้างไกลทุ่งกุลา โลกลือชาข้าวหอมมะลิ</Text>
+      <ActivityIndicator size="large" color="#166534" style={styles.loading} />
     </View>
   )
 }
@@ -27,6 +26,8 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: '#F7F7F7',
+    paddingHorizontal: 20,
   },
   logo: {
     width: 150,
@@ -37,11 +38,13 @@ const styles = StyleSheet.create({
     fontSize: 28,
     fontFamily: 'NotoSansThai_700Bold',
     marginBottom: 10,
+    color: '#32D67C',
   },
   description: {
-    fontSize: 16,
+    fontSize: 14,
     fontFamily: 'NotoSansThai_700Bold',
     textAlign: 'center',
+    color: '#166534',
   },
   loading: {
     marginTop: 40,

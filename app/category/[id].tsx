@@ -34,7 +34,7 @@ export default function CategoryScreen() {
 
     return (
         <View style={styles.container}>
-            <Stack.Screen options={{ headerTitle: "หมวด" + title, headerTitleAlign: 'center', headerTitleStyle: { fontFamily: 'NotoSansThai_700Bold' }, headerTintColor: '#FFC107', headerStyle: { backgroundColor: '#0000ff' } }} />
+            <Stack.Screen options={{ headerTitle: "หมวด" + title, headerTitleAlign: 'center', headerTitleStyle: { fontFamily: 'NotoSansThai_700Bold' }, headerTintColor: '#FFFFFF', headerStyle: { backgroundColor: '#32D67C' } }} />
             <View style={styles.locationsContainer}>
                 {locations.map((location) => (
                     <Link key={location.id} href={{ pathname: "/detail/[id]", params: { id: location.id, name: location.name, fromCategory: categoryId } }} asChild>
@@ -68,11 +68,11 @@ const styles = StyleSheet.create({
         marginBottom: 15,
         borderRadius: 15,
         borderWidth: 2,
-        borderColor: '#0000FF',
+        borderColor: '#32D67C',
         justifyContent: 'center',
     },
     buttonBorderedText: {
-        color: '#0000FF',
+        color: '#32D67C',
         fontSize: 18,
         fontFamily: 'NotoSansThai_700Bold',
     },
