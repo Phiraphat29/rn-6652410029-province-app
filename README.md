@@ -1,50 +1,34 @@
-# Welcome to your Expo app 👋
+# 🏯 Roi Et Connect (rn-6652410029-thai-province-app)
+**แอปพลิเคชันแนะนำสถานที่ท่องเที่ยวและร้านค้าในจังหวัดร้อยเอ็ด** 🌾
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+## 📱 รายละเอียดโปรเจกต์
+แอปพลิเคชันสำหรับรวบรวมข้อมูลสถานที่สำคัญในจังหวัดร้อยเอ็ด โดยแบ่งหมวดหมู่เป็น สถานที่ท่องเที่ยว, ร้านอาหาร, คาเฟ่, วัด และงานประเพณี ข้อมูลทั้งหมดถูกจัดการผ่านระบบ Cloud Database ของ **Supabase** และแสดงผลแบบ Real-time บนสมาร์ทโฟน โดยเน้นการออกแบบที่ใช้งานง่ายและทันสมัย
 
-1. Install dependencies
+### 🌟 ฟีเจอร์ (Key Features)
+* **Grid Layout**: หน้า Home ดีไซน์แบบ 2 คอลัมน์
+* **Dynamic Data Loading**: ดึงข้อมูลจากฐานข้อมูล Supabase โดยตรง
+* **Navigation Integration**: เชื่อมต่อกับระบบนำทาง (Google Maps) ผ่านพิกัดที่ระบุไว้ในฐานข้อมูล
+* **Modern Bordered Style**: เน้นการออกแบบที่ Clean และสดใสด้วยโทนสีเขียวที่สบายตา
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 📸 ภาพตัวอย่างแอปพลิเคชัน (Screenshots)
 
-   ```bash
-   npx expo start
-   ```
+### 1. หน้าต้อนรับและหน้าหลัก
+| Splash Screen (หน้าโหลดแอป) | Home (หน้าหมวดหมู่) |
+| :---: | :---: |
+| <img width="300" alt="image" src="https://github.com/user-attachments/assets/a688c373-d066-499c-bb4d-364e9202ea52" />| <img width="300" alt="image" src="https://github.com/user-attachments/assets/3cd643f8-66c0-4fe9-919c-a25939b2423f" />|
 
-In the output, you'll find options to open the app in a
+### 2. การแสดงผลข้อมูลและการนำทาง
+| Place List (รายการสถานที่) | Detail (รายละเอียดสถานที่) |
+| :---: | :---: |
+| <img width="300" alt="image" src="https://github.com/user-attachments/assets/1130188b-a6bd-47b1-b1de-ca1680eb33d1" />| <img width="300" alt="image" src="https://github.com/user-attachments/assets/e09c4f1b-42d0-45d2-a206-975550e54db1" />|
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🗄️ โครงสร้างฐานข้อมูล (Database Schema)
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### แผนผังฐานข้อมูล
+<img width="316" height="723" alt="image" src="https://github.com/user-attachments/assets/db666ad4-f2fd-4a02-aaf2-6d497c8db410" />
